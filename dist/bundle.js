@@ -7,7 +7,6 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./src/generateJoke.js":
@@ -16,6 +15,7 @@
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction generateJoke(){\n    console.log(\"I don't trust stairs. They're always up to something.\")\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (generateJoke);\n\n//# sourceURL=webpack://learning-webpack/./src/generateJoke.js?\n}");
 
 /***/ }),
@@ -26,7 +26,18 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _generateJoke__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./generateJoke */ \"./src/generateJoke.js\");\n\n\nconsole.log((0,_generateJoke__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\n\n\n//# sourceURL=webpack://learning-webpack/./src/index.js?\n}");
+"use strict";
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _generateJoke__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./generateJoke */ \"./src/generateJoke.js\");\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/main.scss */ \"./src/styles/main.scss\");\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_main_scss__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nconsole.log((0,_generateJoke__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\n\n\n//# sourceURL=webpack://learning-webpack/./src/index.js?\n}");
+
+/***/ }),
+
+/***/ "./src/styles/main.scss":
+/*!******************************!*\
+  !*** ./src/styles/main.scss ***!
+  \******************************/
+/***/ (() => {
+
+eval("{\n\n//# sourceURL=webpack://learning-webpack/./src/styles/main.scss?\n}");
 
 /***/ })
 
@@ -57,6 +68,18 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ge
 /******/ 	}
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
