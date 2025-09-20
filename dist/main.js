@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log(123),console.log(void console.log("I don't trust stairs. They're always up to something."))})();
