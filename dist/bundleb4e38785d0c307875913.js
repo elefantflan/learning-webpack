@@ -12,10 +12,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-function generateJoke(){
-    console.log("I don't trust stairs. They're always up to something.")
+function generateJoke() {
+  console.log("I don't trust stairs. They're always up to something.");
 }
-
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (generateJoke);
 
 /***/ }),
@@ -111,12 +110,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_main_scss__WEBPACK_IMPORTED_MODULE_1__);
 
 
-
 console.log((0,_generateJoke__WEBPACK_IMPORTED_MODULE_0__["default"])());
-
 console.log(1);
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle514295afb6b24170d2b8.js.map
+//# sourceMappingURL=bundleb4e38785d0c307875913.js.map
